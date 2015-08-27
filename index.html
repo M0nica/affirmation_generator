@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>#365Affirmations </title>
+  <meta name="description" content="">
+  <meta name="author" content="Monica Powell">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="one-half column" style="margin-top: 5%">
+        <h1>#365Affirmations</h1>
+        <p>#365Affirmations is a community-driven collection of positive affirmations. Feel free to browse around or contribute by submitting your favorite positive affirmation via our form.
+
+         </p>
+      </div>
+
+      <div class="one-half column" style="margin-top: 5%">
+       <blockquote>"I'm every woman - ack jQuery is not loading"</blockquote><cite></cite><br> 
+       <button class="next">next</button>
+
+       <!--<button class="more">more by this author</button>-->
+      </div>
+    </div>
+
+    <div class="row">
+      <h3> Contribute to Our Collection</h3>
+      <h5 id="contribute"></h5>
+
+
+      <div id="email-form"> 
+      <iframe src='email_form.php' frameborder='0'
+width='100%' height='620'  id="frameSource" scrolling="no" allowtransparency='true'>An iframe capable browser is required to view this contact form.</iframe>
+    </div></div>
+
+
+  </div>
+
+  <footer> &nbsp; &nbsp; Made by <a href="www.aboutmonica.com">Monica Powell</a></footer>
+  <script type= "text/javascript">
+  $(document).ready(function(){
+
+    //array of quotes
+    var quotes = [
+       {words: "there is you and you.\nthis is a relationship.\nthis is the most important relationship.", source: "home", author: "nayyirah waheed", shownAlready: false},
+        {words:  "Caring for myself is not self-indulgence, it is self-preservation, and that is an act of political warfare.", source: "unknown" , author: "Audre Lorde", shownAlready: false},
+        {words: "The sunlight isn't the only thing that makes me happy anymore now that I can endure my storms." ,source: "Words from a Wanderer" , author: "Alex Elle" }
+         ];
+
+         //randomly generate the first quote
+          $("#contribute").text("We currently only have "+ quotes.length + " quotes and are " + (365-quotes.length) + " quotes short of our goal of 365!")
+        
+
+         var quote =   quotes[(Math.floor(Math.random() * quotes.length))];
+
+
+          $('blockquote').text(quote.words);
+
+
+
+          $('cite').text(quote.author);
+          quote.shownAlready = true;
+
+          //generate the next quote on click
+
+     $('.next').click(function(){
+          
+        do {
+        
+
+         var quote =   quotes[(Math.floor(Math.random() * quotes.length))];
+       } while (quote.shownAlready)
+
+         
+
+
+          $('blockquote').text(quote.words);
+
+          $('cite').text(quote.author);
+
+
+
+      
+
+          //$("body").css("background-color", "#8585B9");
+
+          //$('.more').click(function(){
+        //    $(this).filter()
+         // });
+
+
+       
+
+            })
+
+
+
+});
+  </script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

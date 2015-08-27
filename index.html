@@ -88,17 +88,17 @@ width='100%' height='620'  id="frameSource" scrolling="no" allowtransparency='tr
 
 
           $('cite').text(quote.author);
-          quote.shownAlready = true;
+         // quote.shownAlready = true;
 
           //generate the next quote on click
 
      $('.next').click(function(){
           
-        do {
+        //do {
         
 
          var quote =   quotes[(Math.floor(Math.random() * quotes.length))];
-       } while (quote.shownAlready)
+       //} while (quote.shownAlready)
 
          
 

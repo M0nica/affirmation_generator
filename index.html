@@ -36,16 +36,19 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <div class="row">
+    <div class="row main">
       <div class="one-half column" style="margin-top: 5%">
         <h1>#365Affirmations</h1>
-        <p>#365Affirmations is a community-driven collection of positive affirmations. Feel free to browse around or contribute by submitting your favorite positive affirmation via our form.
+      </div>
+         <div class="one-half column" style="margin-top: 5%">
+        <p>#365Affirmations is a community-driven collection of positive affirmations. Feel free to browse around or contribute by submitting your favorite positive affirmation.
 
          </p>
       </div>
-
-      <div class="one-half column" style="margin-top: 5%">
-       <blockquote>"I'm every woman - ack jQuery is not loading"</blockquote><cite></cite><br> 
+    </div> 
+ <div class="row" id="quotebox">
+      <div class="twelve columns" style="margin-top: 5%">
+       <blockquote>"I'm every woman - ack jQuery is not loading. Is JavaScript enabled on your browser?"</blockquote><cite></cite><br> 
        <button class="next">next</button>
 
        <!--<button class="more">more by this author</button>-->
@@ -73,49 +76,60 @@ width='100%' height='620'  id="frameSource" scrolling="no" allowtransparency='tr
     var quotes = [
        {words: "there is you and you.\nthis is a relationship.\nthis is the most important relationship.", source: "home", author: "nayyirah waheed", shownAlready: false},
         {words:  "Caring for myself is not self-indulgence, it is self-preservation, and that is an act of political warfare.", source: "unknown" , author: "Audre Lorde", shownAlready: false},
-        {words: "The sunlight isn't the only thing that makes me happy anymore now that I can endure my storms." ,source: "Words from a Wanderer" , author: "Alex Elle" }
+        {words: "The sunlight isn't the only thing that makes me happy anymore now that I can endure my storms." ,source: "Words from a Wanderer" , author: "Alex Elle", shownAlready: false},
+         {words: "Life is so amazing and ridiculous. It just makes you want to laugh out loud at all the things you thought would destroy you." ,source: "twitter" , author: "Alysia Harris", shownAlready: false}
          ];
 
-         //randomly generate the first quote
-          $("#contribute").text("We currently only have "+ quotes.length + " quotes and are " + (365-quotes.length) + " quotes short of our goal of 365!")
+       //quote stats
+         var quoteStats = "We currently only have "+ quotes.length + " quotes and are " + (365-quotes.length) + " quotes short of our goal of 365!";
+         //motivate people to contribute with quoteStats
+          $("#contribute").text(quoteStats);
         
 
-         var quote =   quotes[(Math.floor(Math.random() * quotes.length))];
+       
+//console.log("before sort: " + quotes);
+//shuffle quotes 
+quotes.sort(function() {return 0.5 - Math.random()});
+
+//console.log("after sort: " + quotes);
+//show the last quote of the shuffled array 
+          $('blockquote').text(quotes[quotes.length-1].words);
 
 
-          $('blockquote').text(quote.words);
 
+          $('cite').text(quotes[quotes.length-1].author);
 
-
-          $('cite').text(quote.author);
-         // quote.shownAlready = true;
-
-          //generate the next quote on click
+//remove the last quote from  array
+          quotes.pop();
+      
 
      $('.next').click(function(){
           
-        //do {
-        
+       )
 
-         var quote =   quotes[(Math.floor(Math.random() * quotes.length))];
-       //} while (quote.shownAlready)
-
-         
-
-
-          $('blockquote').text(quote.words);
-
-          $('cite').text(quote.author);
+         if (quotes.length > 0 ) {
+            $('blockquote').text(quotes[quotes.length-1].words);
 
 
 
-      
+          $('cite').text(quotes[quotes.length-1].author);
 
-          //$("body").css("background-color", "#8585B9");
+          quotes.pop();
+         }
 
-          //$('.more').click(function(){
-        //    $(this).filter()
-         // });
+         else {
+          //when there are no more quotes display this message
+           $('blockquote').text("You have reached the last quote. If you would like to see more quotes then please submit some via our submission form." + "\n" + quoteStats );
+
+
+
+          $('cite').text("Thank you for visiting");
+          $('.next').remove();
+
+
+         }
+
+
 
 
        

@@ -1,7 +1,79 @@
 body {
-	background-color: #34A791;
+	/*background-color: #34A791;*/
+	background-color: #65ABA6;
 	color:  #F0F6F8;
 }
+
+
+
+.main {
+    background-color: #B98C5A;
+    margin: 2em;
+    padding: 1.5em;
+    border-radius: 15px;}
+
+
+/* quote section*/
 blockquote {font-size: 1.5em;}
+/*blockquote {
+  /*background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;*/
+ /* quotes: "\201C""\201D""\2018""\2019";
+}*/
+blockquote:before {
+  color: #65ABA6;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote:after {
+  color: #65ABA6;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-left: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+#quotebox{
+
+    background-color: #99B95A;
+    border-radius: 20px;
+    color: #02312E;
+    padding: 1.5em;
+}
+
+cite {    font-size: 1.25em;}
+button, .button {
+    margin-bottom: 1rem;
+    background-color: #65ABA6;
+    color: #F0F6F8;
+    border-color: #65ABA6;
+    /*width: 25em;*/
+    width: 100%;
+    margin: 1em;
+}
+
+.button:hover, button:hover {
+    color: #DAF3F8;
+    border-color:  #47B7AF;
+    outline: 0;
+    background-color: #47B7AF;
+
+}
+/* submit secion*/
+h3 {padding-top: 2em;}
+
+/* misc */
+
 
 a:link {color:  #F0F6F8;}
+
+h1 {font-size: 1.5em;}

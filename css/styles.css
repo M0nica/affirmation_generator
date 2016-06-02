@@ -1,23 +1,38 @@
+
 body {
 	/*background-color: #34A791;*/
-	background-color: #65ABA6;
-	color:  #F0F6F8;
+	background-color: #C6A5B6;
+	color:  #33151a;
+font-family:  'Quicksand', /*'Avenir Next', Avenir, Lato, Nunito,*/ 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 
 
 .main {
-    background-color: #B98C5A;
-    margin: 2em;
-    padding: 1.5em;
-    border-radius: 15px;}
+   background-color: #C6A5B6;
+background-image: url("https://c2.staticflickr.com/4/3853/14713283046_66f9b9c651_k.jpg");
+background-size: cover;
+height: 350px;
+padding: 1.5em;
 
+/*
+margin: 2em;
+border-radius: 15px;*/
+/*background-image: url("http://c2.staticflickr.com/2/1343/1082195485_44f0da470d_b.jpg"); background-size: cover;*/
+}
+
+#heading {background-color:     rgba(255, 255, 255, 0.45);
+padding: 20px;
+margin: 0 auto;
+}
 
 /* quote section*/
-blockquote {font-size: 1.5em;}
+blockquote {font-size: 1.5em; text-align: center;
+margin: 0 auto;}
 /*blockquote {
   /*background: #f9f9f9;
-  border-left: 10px solid #ccc;
+border-left: 10px solid #ccc;
+ 
   margin: 1.5em 10px;
   padding: 0.5em 10px;*/
  /* quotes: "\201C""\201D""\2018""\2019";
@@ -43,21 +58,23 @@ blockquote p {
 }
 
 #quotebox{
-
-    background-color: #99B95A;
-    border-radius: 20px;
+background-color: #E7E7E7;
+/*
+    background-color: #8c6277;*/
+   /* border-radius: 20px;*/
     color: #02312E;
     padding: 1.5em;
 }
 
-cite {    font-size: 1.25em;}
+cite {    font-size: 1.25em; text-align: center;
+margin: 0px auto; }
 button, .button {
     margin-bottom: 1rem;
     background-color: #65ABA6;
     color: #F0F6F8;
     border-color: #65ABA6;
     /*width: 25em;*/
-    width: 100%;
+    /*width: 100%;*/
     margin: 1em;
 }
 
@@ -76,4 +93,7 @@ h3 {padding-top: 2em;}
 
 a:link {color:  #F0F6F8;}
 
-h1 {font-size: 1.5em;}
+h1 {/*font-size: 1.5em;*/     font-size: 5em;
+    text-align: center;
+    color: #412145;
+}}

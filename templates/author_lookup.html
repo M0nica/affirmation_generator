@@ -14,28 +14,32 @@
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
 </head>
 <body>
-    <h1>#365 Affirmations</h1>
-    <p>This page provides you with information collectd from various authors.</p>
-    <!-- this part of the code will only run if the country is specified in URL-->
-    {% if author %}
-        <p>You asked for information on {{ author['name'] }}. Here is a quote by {{ author['name'] }}:
-      </p>
 
-      <blockquote>"{{ author['words'] }}"</blockquote>
+
+    <h1>#365 Affirmations</h1>
+    <p>#365 Affirmations is a project to provide the world with uplifting and inspiring quotes.</p>
+    <!-- this part of the code will only run if the country is specified in URL-->
+
+    {% if author %}
+      <p>Quotes by {{ author[0]['name'] }}:</p>
+      {% for quote in author %}
+
+        <blockquote>"{{ quote['words'] }}"</blockquote>
+      {% endfor %}
     {% endif %}
 
     <!-- will execute regardless of if a country is specified -->
     <p>Enter the name of the author  you want to lookup</a>
-  <form action="/author" method="GET">
-    Enter the name of an author here: <input type="text" name="lookup_name">
+  <form action="/" method="GET">
+    Enter the name of an author here: <input type="text" name="author_name">
     <input type="submit" value="Look up!!">
   </form>
   <h3>Authors in Our Collection</h3>
 
       <ul>
         {% for author in authors %}
-    
-           <li><a href="/author?lookup_name={{author['author']}}">{{author['author']}}</a></li>
+
+           <li><a href="/?author_name={{author['author']}}">{{author['author']}}</a></li>
          {% endfor %}
 
       </ul>

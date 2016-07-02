@@ -8,7 +8,7 @@ There is a .php form integrated into the site in order to allow users to submit 
 The live website can be viewed at: http://www.carefreecollective.com/affirmation_generator/
 
 
-There is not yet a live link available for the Flask application that connects to the quote database and generated dynamic links but the code is available here:
+There is not yet a live link available for the Flask Web application of this project which connects to the quote database and generates dynamic URLs for each author in the collection but the code is available here:
 - affirmation_flask.py
 - templates
   - author_lookup.html

@@ -13,42 +13,45 @@ conn = pg8000.connect(database="affirmations", user="Monica")
 
 @app.route("/")
 def author_info():
-    # ainfo = None
-    ainfo = list()
-    allinfo = list()
+    # author_info = None
+    author_info = list()
+    all_author_info = list()
     #default value for lookup_name is None
     cname = request.args.get('author_name', None)
 
     cursor = conn.cursor()
     cursor.execute(
-    "SELECT DISTINCT author FROM quotes ORDER BY author ASC"
+    "SELECT DISTINCT author_original FROM quotes ORDER BY author_original ASC"
     )
     all_responses = cursor.fetchall()
     print("all_responses", all_responses)
     for response in all_responses:
         author_dict = {'author':response[0]}
-        allinfo.append(author_dict)
+        all_author_info.append(author_dict)
 
     #perform database lookup if a country name is specified
     if cname:
+        cname = cname.lower()
         cursor = conn.cursor()
+        #converts cname to lowercase and looks at author_downcase
+        # so that SELECT/search is caseinsensitive
         cursor.execute(
-        "SELECT author, words FROM quotes WHERE author = %s", [cname]
+        "SELECT author_original, words FROM quotes WHERE author_downcase = %s", [cname]
         )
         responses = cursor.fetchall()
         #print(response)
 
         for response in responses:
-            # ainfo = {'name': response[0], 'words': response[1]}
+            # author_info = {'name': response[0], 'words': response[1]}
             a_dict = {'name':response[0], 'words':response[1]}
-            ainfo.append(a_dict)
+            author_info.append(a_dict)
 
-        print("AINFO IS", ainfo)
-    print("info for all authors is", allinfo)
+        print("author_info IS", author_info)
+    print("info for all authors is", all_author_info)
     #perform a database search
     # format the rresults as text (html)
     # return that text
 
-    return render_template("author_lookup.html", author=ainfo, authors=allinfo)
+    return render_template("author_lookup.html", author=author_info, authors=all_author_info)
 
 app.run(debug=True)

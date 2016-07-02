@@ -1,0 +1,44 @@
+
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+  <!--<link rel="stylesheet" href="css/skeleton.css">-->
+
+    <title>Author Information</title>
+    <style type="text/css">
+    body { max-width: 600px; margin: 1em auto; }
+    blockquote {font-size: 3em;}
+    </style>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
+</head>
+<body>
+    <h1>#365 Affirmations</h1>
+    <p>This page provides you with information collectd from various authors.</p>
+    <!-- this part of the code will only run if the country is specified in URL-->
+    {% if author %}
+        <p>You asked for information on {{ author['name'] }}. Here is a quote by {{ author['name'] }}:
+      </p>
+
+      <blockquote>"{{ author['words'] }}"</blockquote>
+    {% endif %}
+
+    <!-- will execute regardless of if a country is specified -->
+    <p>Enter the name of the author  you want to lookup</a>
+  <form action="/author" method="GET">
+    Enter the name of an author here: <input type="text" name="lookup_name">
+    <input type="submit" value="Look up!!">
+  </form>
+  <h3>Authors in Our Collection</h3>
+
+      <ul>
+        {% for author in authors %}
+    
+           <li><a href="/author?lookup_name={{author['author']}}">{{author['author']}}</a></li>
+         {% endfor %}
+
+      </ul>
+    <p>{{ output }}
+</body>
+</html>

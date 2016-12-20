@@ -13,3 +13,11 @@ There is not yet a live link available for the Flask Web application of this pro
 - templates
   - author_lookup.html
 - AffirmationDatabaseGenerator.ipynb
+
+
+## To Launch Application Locally  
+
+- load virtualenv with Python dependencies installed ( *note to self use 'ddb' virtual env* )
+- launch PostgreSQL
+- python3 affirmation_flask.py
+- visit app on local server at http://localhost:5000/

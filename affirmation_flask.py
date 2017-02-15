@@ -8,7 +8,7 @@ import pg8000
 import os
 
 app = Flask(__name__)
-conn = pg8000.connect(database="affirmations", user="Monica")
+conn = pg8000.connect(database="affirmations", user="monica")
 
 
 @app.route("/")

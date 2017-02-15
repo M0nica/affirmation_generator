@@ -1,12 +1,13 @@
 
 body {
-	/*background-color: #34A791;*/
 	background-color: #C6A5B6;
 	color:  #33151a;
 font-family:  'Quicksand', /*'Avenir Next', Avenir, Lato, Nunito,*/ 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-
+nav.navbar.navbar-default.navbar-fixed-top a:link, nav.navbar.navbar-default.navbar-fixed-top a:visited {
+    color: #c6a5b6;
+}
 
 .main {
    background-color: #C6A5B6;
@@ -14,11 +15,6 @@ background-image: url("https://c2.staticflickr.com/4/3853/14713283046_66f9b9c651
 background-size: cover;
 height: 350px;
 padding: 1.5em;
-
-/*
-margin: 2em;
-border-radius: 15px;*/
-/*background-image: url("http://c2.staticflickr.com/2/1343/1082195485_44f0da470d_b.jpg"); background-size: cover;*/
 }
 
 #heading {background-color:     rgba(255, 255, 255, 0.45);
@@ -29,14 +25,7 @@ margin: 0 auto;
 /* quote section*/
 blockquote {font-size: 1.5em; text-align: center;
 margin: 0 auto;}
-/*blockquote {
-  /*background: #f9f9f9;
-border-left: 10px solid #ccc;
 
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;*/
- /* quotes: "\201C""\201D""\2018""\2019";
-}*/
 blockquote:before {
   color: #65ABA6;
   content: open-quote;
@@ -59,9 +48,7 @@ blockquote p {
 
 #quotebox{
 background-color: #E7E7E7;
-/*
-    background-color: #8c6277;*/
-   /* border-radius: 20px;*/
+
     color: #02312E;
     padding: 1.5em;
 }
@@ -73,8 +60,7 @@ button, .button {
     background-color: #65ABA6;
     color: #F0F6F8;
     border-color: #65ABA6;
-    /*width: 25em;*/
-    /*width: 100%;*/
+
     margin: 1em;
 }
 
@@ -91,9 +77,14 @@ h3 {padding-top: 2em;}
 /* misc */
 
 
-a:link {color:  #F0F6F8;}
 
-h1 {/*font-size: 1.5em;*/     font-size: 5em;
+h1 {
+	    padding-top: .5em !important;
+			 font-size: 5em;
     text-align: center;
     color: #412145;
-}}
+}
+
+a {
+	color: #fff;
+}

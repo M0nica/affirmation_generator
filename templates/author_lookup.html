@@ -1,24 +1,14 @@
 
-<!doctype html>
-<html>
-<head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/normalize.css">
-  <!--<link rel="stylesheet" href="css/skeleton.css">-->
 
-    <title>Author Information</title>
-    <style type="text/css">
-    body { max-width: 600px; margin: 1em auto; }
-    blockquote {font-size: 3em;}
-    </style>
-    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
-</head>
-<body>
+{% extends "layout.html" %}
+{% block content %}
 
 
-    <h1>#365 Affirmations</h1>
+
     <p>#365 Affirmations is a project to provide the world with uplifting and inspiring quotes.</p>
     <!-- this part of the code will only run if the country is specified in URL-->
+
+  
 
     {% if author %}
       <p>Quotes by {{ author[0]['name'] }}:</p>
@@ -28,12 +18,12 @@
       {% endfor %}
     {% endif %}
 
-    <!-- will execute regardless of if a country is specified -->
-    <p>Enter the name of the author  you want to lookup</a>
+    <!-- temp disable search field -->
+    <!-- <p>Enter the name of the author  you want to lookup</p>
   <form action="/" method="GET">
     Enter the name of an author here: <input type="text" name="author_name">
     <input type="submit" value="Look up!!">
-  </form>
+  </form> -->
   <h3>Authors in Our Collection</h3>
 
       <ul>
@@ -44,5 +34,4 @@
 
       </ul>
     <p>{{ output }}
-</body>
-</html>
+{% endblock %}

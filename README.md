@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Users can visit this site to view the collection thus far - an affirmation is randomly generated each visit or when the next button is pushed.
 
-![App Screenshot](src/app-screenshot.png)
+![App Screenshot](public/app-screenshot.png)
 
 Additional affirmations can be submitted by editing to the ![quotes.js](src/quotes.js) file.
 

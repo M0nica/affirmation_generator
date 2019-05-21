@@ -3,6 +3,7 @@ import "./App.css";
 
 import Affirmation from "./Affirmation";
 import Header from "./Header";
+import Footer from "./Footer";
 
 class App extends React.Component {
   render() {
@@ -11,6 +12,7 @@ class App extends React.Component {
         <header className="App-header">
           <Header />
           <Affirmation />
+          <Footer />
         </header>
       </div>
     );

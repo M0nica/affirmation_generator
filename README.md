@@ -9,6 +9,18 @@ Users can visit this site to view the collection thus far - an affirmation is ra
 
 Additional affirmations can be submitted by editing to the [quotes.js](src/quotes.js) file.
 
+The basic object structure of an affirmation in this project is:
+
+```
+{
+  quote:
+    "",
+  author: ""
+}
+```
+
+See the [quotesTemplate.js](src/quoteTemplate.js) file for a further example of what should be added to the `quotes` array in the [quotes.js](src/quotes.js) file.
+
 ## Available Scripts
 
 In the project directory, you can run:

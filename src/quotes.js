@@ -90,7 +90,7 @@ const quotes = [
   {
     quote:
       "she is water\n soft enough\n to offer life\n tough enough\n to drown it away",
-    source: "unnown",
+    source: "unknown",
     author: "rupi kaur"
   }
 ];

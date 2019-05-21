@@ -7,6 +7,7 @@ Users can visit this site to view the collection thus far - an affirmation is ra
 
 ![App Screenshot](public/app-screenshot.png)
 
+## How to Add Affirmations
 Additional affirmations can be submitted by editing to the [quotes.js](src/quotes.js) file.
 
 The basic object structure of an affirmation in this project is:

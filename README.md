@@ -1,3 +1,9 @@
+### affirmation generator
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Users can visit this site to view the collection thus far - an affirmation is randomly generated each visit or when the next button is pushed.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

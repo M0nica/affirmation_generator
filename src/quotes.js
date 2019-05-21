@@ -7,6 +7,23 @@ const quotes = [
   },
   {
     quote:
+      "The Question Isn’t Who Is Going To Let Me; It’s Who Is Going To Stop Me.",
+    source: "unknown",
+    author: "Ayn Rand"
+  },
+  {
+    quote:
+      "Never give up, for that is just the place and time that the tide will turn.",
+    author: "Harriet Beecher Stowe"
+  },
+  {
+    quote:
+      "When I dare to be powerful, to use my strength in the service of my vision, then it becomes less and less important whether I am afraid.",
+    source: "unknown",
+    author: "Audre Lorde"
+  },
+  {
+    quote:
       "there is you and you.\nthis is a relationship.\nthis is the most important relationship.",
     source: "home",
     author: "nayyirah waheed"

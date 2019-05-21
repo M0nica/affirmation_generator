@@ -35,11 +35,11 @@ class Affirmation extends React.Component {
   render() {
     const quote = this.state.quote;
     return (
-      <>
+      <div className="Affirmation">
         <blockquote className="quote">{quote.quote}</blockquote>
         <p className="author-citation">{quote.author}</p>
         <button onClick={this.handleClick}>Next Affirmation</button>
-      </>
+      </div>
     );
   }
 }

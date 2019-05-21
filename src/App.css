@@ -1,3 +1,7 @@
+#root, .App {
+  height: 100%;
+}
+
 .App {
   text-align: center;
 }
@@ -8,6 +12,8 @@
 }
 
 .App-header {
+  height: 100%;
+  overflow-x: hidden;
   background-color: #f7eaea;
   min-height: 100vh;
   display: flex;
@@ -58,4 +64,8 @@ button:hover {
   color: #000;
   background-color: #fff;
   border-color: #e6e6e6;
+}
+
+.Affirmation {
+  flex: 1;
 }

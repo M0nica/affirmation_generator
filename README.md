@@ -1,4 +1,5 @@
 ### affirmation generator
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ec8dd57a-9951-4166-bba9-bb5f99354b29/deploy-status)](https://app.netlify.com/sites/affectionate-jackson-f15dd5/deploys)
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

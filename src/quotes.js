@@ -83,6 +83,24 @@ const quotes = [
   },
   {
     quote:
+      "You can't use up creativity.  The more you use, the more you have.",
+    source: "Conversations with Maya Angelou (1989) by Jeffrey M. Elliot",
+    author: "Dr. Maya Angelou"
+  },
+    {
+    quote:
+      "I rise, bringing the gifts that my ancestors gave, I am the dream and the hope of the slave.",
+    source: "Still I Rise by Dr. Maya Angelou",
+    author: "Dr. Maya Angelou"
+  },
+     {
+    quote:
+      "We ourselves feel that what we are doing is just a drop in the ocean. But if the drop was not in the ocean, I think the ocean would be less because of the missing drop.",
+    source: "Mother Teresa's Reaching Out in Love (2002) compiled and edited by Edward Le Joly and Jaya Chaliha",
+    author: "Mother Teresa"
+  },
+    {
+    quote:
       "I love myself.\nthe\nquietest,\nsimplest,\nmost\npowerful\nrevolution\never.",
     source: "home",
     author: "nayyirah waheed"

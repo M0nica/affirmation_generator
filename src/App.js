@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 
-import Affirmation from "./Affirmation";
+import Affirmation from "./AffirmationComponent";
 import Header from "./Header";
 import Footer from "./Footer";
 
@@ -9,8 +9,11 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header" style={{display: 'flex', flexDirection: 'columns'}}>
-          <Header/>
+        <header
+          className="App-header"
+          style={{ display: "flex", flexDirection: "columns" }}
+        >
+          <Header />
           <Affirmation />
           <Footer />
         </header>

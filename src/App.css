@@ -25,13 +25,13 @@
   color: #3e3d56;
 }
 
-blockaffirmation {
+blockquote {
   font-size: 1.5em;
   text-align: center;
   margin: 0 auto;
 }
 
-blockaffirmation:before {
+blockquote:before {
   color: #bb8989;
   content: open-affirmation;
   font-size: 2em;
@@ -39,7 +39,7 @@ blockaffirmation:before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
-blockaffirmation:after {
+blockquote:after {
   color: #bb8989;
   content: close-affirmation;
   font-size: 2em;
@@ -47,7 +47,7 @@ blockaffirmation:after {
   margin-left: 0.25em;
   vertical-align: -0.4em;
 }
-blockaffirmation p {
+blockquote p {
   display: inline;
 }
 

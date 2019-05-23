@@ -1,4 +1,5 @@
 ### affirmation generator
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ec8dd57a-9951-4166-bba9-bb5f99354b29/deploy-status)](https://app.netlify.com/sites/affectionate-jackson-f15dd5/deploys)
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
@@ -9,19 +10,20 @@ Users can visit this site to view the collection thus far - an affirmation is ra
 ![App Screenshot](public/app-screenshot.png)
 
 ## How to Add Affirmations
-Additional affirmations can be submitted by editing to the [quotes.js](src/quotes.js) file.
+
+Additional affirmations can be submitted by editing to the [affirmations.js](src/affirmations.js) file.
 
 The basic object structure of an affirmation in this project is:
 
 ```
 {
-  quote:
+  affirmation:
     "",
   author: ""
 }
 ```
 
-See the [quotesTemplate.js](src/quoteTemplate.js) file for a further example of what should be added to the `quotes` array in the [quotes.js](src/quotes.js) file.
+See the [affirmationsTemplate.js](src/affirmationTemplate.js) file for a further example of what should be added to the `affirmations` array in the [affirmations.js](src/affirmations.js) file.
 
 ## Available Scripts
 

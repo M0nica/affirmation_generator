@@ -111,7 +111,7 @@ const affirmations = [
       "she is water\n soft enough\n to offer life\n tough enough\n to drown it away",
     source: "unknown",
     author: "rupi kaur"
-  }
+  },
   {
     affirmation:
       "I am free of the fear of mistakes and failure. Mistakes and failures are good and necessary to achieve success. I act without fear of failure and feel excited, heroic, and unstoppable",

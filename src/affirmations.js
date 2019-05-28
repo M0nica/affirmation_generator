@@ -111,6 +111,11 @@ const affirmations = [
       "she is water\n soft enough\n to offer life\n tough enough\n to drown it away",
     source: "unknown",
     author: "rupi kaur"
+  },
+  affirmation:
+    "An endless reservoir of creativity lies within me.",
+  source: "unknown",
+  author: "unknown"
   }
 ];
 

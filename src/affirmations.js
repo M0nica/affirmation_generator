@@ -112,6 +112,7 @@ const affirmations = [
     source: "unknown",
     author: "rupi kaur"
   },
+  {
   affirmation:
     "An endless reservoir of creativity lies within me.",
   source: "unknown",

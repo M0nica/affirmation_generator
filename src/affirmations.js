@@ -132,7 +132,7 @@ const affirmations = [
   },
   {
     affirmation:
-      "Nothing is impossible. The word itself says \"I'm possible!\" "
+      "Nothing is impossible. The word itself says \"I'm possible!\" ",
         source: "unknown"
         author: "Audrey Hepburn"
   },

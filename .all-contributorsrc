@@ -33,6 +33,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "unikornintech",
+      "name": "Lauren",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/31517766?v=4",
+      "profile": "https://www.codepresssolutions.com/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

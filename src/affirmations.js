@@ -138,7 +138,7 @@ const affirmations = [
   },
   {
     affirmation:
-      "I am a money magnet. I always attract abundance and prosperity easily and effortlessly into my reality."
+      "I am a money magnet. I always attract abundance and prosperity easily and effortlessly into my reality.",
       source: "unknown",
       author: "Sarah Prout"
   }

@@ -1,11 +1,12 @@
 ### affirmation generator
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ec8dd57a-9951-4166-bba9-bb5f99354b29/deploy-status)](https://app.netlify.com/sites/affirmations/deploys)
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Website: [https://www.affirmations.madewithtech.com/](https://www.affirmations.madewithtech.com/)
 
-Users can visit this site to view the collection thus far - an affirmation is randomly generated each visit or when the next button is pushed.
+
+Users can visit the [affirmation generator](https://www.affirmations.madewithtech.com/) for inspiration and view the collection thus far - an affirmation is randomly generated :sparkles: each visit or when the next button is pushed.
 
 ![App Screenshot](public/app-screenshot.png)
 
@@ -25,11 +26,16 @@ The basic object structure of an affirmation in this project is:
 
 See the [affirmationsTemplate.js](src/affirmationTemplate.js) file for a further example of what should be added to the `affirmations` array in the [affirmations.js](src/affirmations.js) file.
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Install Dependencies
+run `yarn` or `npm`
+
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm start` or `yarn start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -37,12 +43,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
+### `npm test` or `yarn test`
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### `npm run build` or `yarn run build`
 
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -52,7 +58,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### `npm run eject` or `yarn run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -74,7 +80,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://jodylecompte.com"><img src="https://avatars0.githubusercontent.com/u/38302762?v=4" width="100px;" alt="Jody LeCompte"/><br /><sub><b>Jody LeCompte</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=jodylecompte" title="Code">💻</a></td><td align="center"><a href="https://www.aboutmonica.com"><img src="https://avatars0.githubusercontent.com/u/6998954?v=4" width="100px;" alt="Monica Powell"/><br /><sub><b>Monica Powell</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=m0nica" title="Code">💻</a> <a href="#content-m0nica" title="Content">🖋</a> <a href="https://github.com/M0nica/affirmation_generator/commits?author=m0nica" title="Documentation">📖</a></td><td align="center"><a href="http://www.skills247.com"><img src="https://avatars1.githubusercontent.com/u/14081255?v=4" width="100px;" alt="DAugusteDataTip"/><br /><sub><b>DAugusteDataTip</b></sub></a><br /><a href="#content-DAugusteDataTip" title="Content">🖋</a></td></tr></table>
+<table><tr><td align="center"><a href="https://jodylecompte.com"><img src="https://avatars0.githubusercontent.com/u/38302762?v=4" width="100px;" alt="Jody LeCompte"/><br /><sub><b>Jody LeCompte</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=jodylecompte" title="Code">💻</a></td><td align="center"><a href="https://www.aboutmonica.com"><img src="https://avatars0.githubusercontent.com/u/6998954?v=4" width="100px;" alt="Monica Powell"/><br /><sub><b>Monica Powell</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=m0nica" title="Code">💻</a> <a href="#content-m0nica" title="Content">🖋</a> <a href="https://github.com/M0nica/affirmation_generator/commits?author=m0nica" title="Documentation">📖</a></td><td align="center"><a href="http://www.skills247.com"><img src="https://avatars1.githubusercontent.com/u/14081255?v=4" width="100px;" alt="DAugusteDataTip"/><br /><sub><b>DAugusteDataTip</b></sub></a><br /><a href="#content-DAugusteDataTip" title="Content">🖋</a></td><td align="center"><a href="https://www.codepresssolutions.com/"><img src="https://avatars1.githubusercontent.com/u/31517766?v=4" width="100px;" alt="Lauren"/><br /><sub><b>Lauren</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=unikornintech" title="Code">💻</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 

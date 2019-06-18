@@ -113,6 +113,36 @@ const affirmations = [
     author: "rupi kaur"
   },
   {
+    affirmation:
+      "I am free of the fear of mistakes and failure. Mistakes and failures are good and necessary to achieve success. I act without fear of failure and feel excited, heroic, and unstoppable",
+      source: "unknown",
+      author: "Corey Regan"
+  },
+  {
+    affirmation:
+      "Wealth is constantly flowing into my life.",
+      source: "unknown",
+       author: "unknown"
+  },
+  {
+    affirmation:
+      "Cherish your visions and dreams as they are the children of your soul, the blueprints of your ultimate achievements.",
+      source: "unknown",
+      author: "unknown"
+  },
+  {
+    affirmation:
+      "Nothing is impossible. The word itself says \"I'm possible!\" ",
+        source: "unknown",
+        author: "Audrey Hepburn"
+  },
+  {
+    affirmation:
+      "I am a money magnet. I always attract abundance and prosperity easily and effortlessly into my reality.",
+      source: "unknown",
+      author: "Sarah Prout"
+  }, 
+  {
   affirmation:
     "An endless reservoir of creativity lies within me.",
   source: "unknown",

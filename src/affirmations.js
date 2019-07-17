@@ -1,7 +1,7 @@
 const affirmations = [
   {
     affirmation:
-      "I remind myself: THE SUN WILL SHINE on me through the change that I create and the change I cannot control.",
+      "I remind myself: the sun will shine on me through the change that I create and the change I cannot control.",
     source: "Illustration",
     author: "Emily Griffin"
   },

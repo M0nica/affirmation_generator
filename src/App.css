@@ -12,6 +12,10 @@
   pointer-events: none;
 }
 
+.twitter-logo {
+  width: 20px;
+}
+
 .App-header {
   height: 100%;
   overflow-x: hidden;
@@ -51,7 +55,12 @@ blockquote p {
   display: inline;
 }
 
-button {
+button, .tweet-button {
+  display: inline-block;
+  font: 400 11px system-ui;
+  border-width: 1px;
+  border-style: solid;
+  margin-right: 5px;
   color: inherit;
   text-decoration: none;
   border-radius: 35px;
@@ -61,7 +70,7 @@ button {
   text-transform: uppercase;
 }
 
-button:hover {
+button:hover, .tweet-button:hover {
   color: #000;
   background-color: #fff;
   border-color: #e6e6e6;

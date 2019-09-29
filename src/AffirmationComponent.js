@@ -46,7 +46,7 @@ class AffirmationComponent extends React.Component {
         </blockquote>
         <p className="author-citation">{affirmation.author}</p>
         <button onClick={this.handleClick}>Next Affirmation</button>
-        <TweetButton />
+        <TweetButton affirmation={affirmation.affirmation} author={affirmation.author} />
       </div>
     );
   }

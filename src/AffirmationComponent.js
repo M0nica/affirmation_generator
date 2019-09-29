@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./App.css";
+import TweetButton from "./TweetComponent";
 
 import affirmations from "./affirmations";
 
@@ -46,6 +46,7 @@ class AffirmationComponent extends React.Component {
         </blockquote>
         <p className="author-citation">{affirmation.author}</p>
         <button onClick={this.handleClick}>Next Affirmation</button>
+        <TweetButton />
       </div>
     );
   }

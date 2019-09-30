@@ -29,6 +29,11 @@
   color: #3e3d56;
 }
 
+.Navigation {
+  display: flex;
+  justify-content: center;
+}
+
 blockquote {
   font-size: 1.5em;
   text-align: center;
@@ -55,11 +60,7 @@ blockquote p {
   display: inline;
 }
 
-button, .tweet-button {
-  display: inline-block;
-  font: 400 11px system-ui;
-  border-width: 1px;
-  border-style: solid;
+button {
   margin-right: 5px;
   color: inherit;
   text-decoration: none;

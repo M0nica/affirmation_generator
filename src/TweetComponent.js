@@ -1,4 +1,4 @@
-// Reference: https://developer.twitter.com/en/docs/twitter-for-websites/tweet-button/overview
+// Twitter Dev Reference: https://developer.twitter.com/en/docs/twitter-for-websites/tweet-button/overview
 
 import React, { Component } from "react";
 
@@ -16,20 +16,19 @@ class TweetComponent extends Component {
     return tweetableText;
   }
 
-  onClickToTweet(e) {
-    e.preventDefault();
+  onClickToTweet(url) {
     window.open(
-      e.target.getAttribute("href"),
+      url,
       "twitterwindow", 
-      "height=450, width=550, toolbar=0, location=0, menubar=0, directories=0,scrollbars=0"
+      "height=450, width=550, toolbar=0, location=0, menubar=0, directories=0,scrollbars=0, rel=noopener"
     );
   }
 
   render() {
     return (
-      <a className="tweet-button" onClick={this.onClickToTweet} href={this.tweetableUrl()}>
+      <button onClick={() => this.onClickToTweet(this.tweetableUrl())}>
         <img src={twitter} className="twitter-logo" alt="Twitter logo" />
-      </a>
+      </button>
     );
   }
 }

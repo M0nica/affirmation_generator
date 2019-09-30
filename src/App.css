@@ -71,7 +71,7 @@ button {
   text-transform: uppercase;
 }
 
-button:hover, .tweet-button:hover {
+button:hover {
   color: #000;
   background-color: #fff;
   border-color: #e6e6e6;

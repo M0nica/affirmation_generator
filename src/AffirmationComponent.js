@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./App.css";
+import TweetButton from "./TweetComponent";
 
 import affirmations from "./affirmations";
 

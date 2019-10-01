@@ -44,8 +44,11 @@ class AffirmationComponent extends React.Component {
         <blockquote className="affirmation">
           {affirmation.affirmation}
         </blockquote>
-        <p className="author-citation">{affirmation.author}</p>
-        <button onClick={this.handleClick}>Next Affirmation</button>
+         <p className="author-citation">{affirmation.author}</p>
+        <div className="Navigation">
+          <button onClick={this.handleClick}>Next Affirmation</button>
+          <TweetButton affirmation={affirmation.affirmation} author={affirmation.author} />
+        </div>
         <br>
         <p>Want to add a new affirmation?</p>
         <button><a href="https://github.com/M0nica/affirmation_generator" style="color: black; text-decoration: none;">Contribute</a></button>

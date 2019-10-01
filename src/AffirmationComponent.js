@@ -1,5 +1,6 @@
 import React from "react";
 
+import TweetButton from "./TweetComponent";
 import { getRandomQuote } from "./utils/QuoteService";
 
 import "./App.css";
@@ -27,7 +28,10 @@ class AffirmationComponent extends React.Component {
           {affirmation.affirmation}
         </blockquote>
         <p className="author-citation">{affirmation.author}</p>
-        <button onClick={this.handleClick}>Next Affirmation</button>
+        <div className="Navigation">
+          <button onClick={this.handleClick}>Next Affirmation</button>
+          <TweetButton affirmation={affirmation.affirmation} author={affirmation.author} />
+        </div>
       </div>
     );
   }

@@ -49,6 +49,9 @@ class AffirmationComponent extends React.Component {
           <button onClick={this.handleClick}>Next Affirmation</button>
           <TweetButton affirmation={affirmation.affirmation} author={affirmation.author} />
         </div>
+        <br />
+        <p>Want to add a new affirmation?</p>
+        <button><a href="https://github.com/M0nica/affirmation_generator" style="color: black; text-decoration: none;">Contribute</a></button>
       </div>
     );
   }

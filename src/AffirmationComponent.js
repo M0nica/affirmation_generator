@@ -51,7 +51,7 @@ class AffirmationComponent extends React.Component {
         </div>
         <br />
         <p>Want to add a new affirmation?</p>
-        <button><a href="https://github.com/M0nica/affirmation_generator" style="color: black; text-decoration: none;">Contribute</a></button>
+        <button style="color: black !important;" onClick="window.location.href = 'https://github.com/M0nica/affirmation_generator';>Contribute</button>
       </div>
     );
   }

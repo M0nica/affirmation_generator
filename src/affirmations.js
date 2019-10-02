@@ -157,7 +157,17 @@ const affirmations = [
     affirmation: "An endless reservoir of creativity lies within me.",
     source: "unknown",
     author: "unknown"
-  }
+  },
+  {
+    affirmation: "As I express my appreciation for others, I am enjoying being in one of the highest states of vibration",
+    source: "unknown",
+    author: "unknown"
+  },
+  {
+    affirmation: "I feel happy and fulfilled because I am doing what I was born to do.",
+    source: "unknown",
+    author: "unknown"
+  } 
 ];
 
 export default affirmations;

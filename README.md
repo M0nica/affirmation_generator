@@ -1,7 +1,7 @@
 ### affirmation generator
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ec8dd57a-9951-4166-bba9-bb5f99354b29/deploy-status)](https://app.netlify.com/sites/affirmations/deploys)
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
 
 Website: [https://www.affirmations.madewithtech.com/](https://www.affirmations.madewithtech.com/)
 
@@ -87,6 +87,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://www.skills247.com"><img src="https://avatars1.githubusercontent.com/u/14081255?v=4" width="100px;" alt="DAugusteDataTip"/><br /><sub><b>DAugusteDataTip</b></sub></a><br /><a href="#content-DAugusteDataTip" title="Content">🖋</a></td>
     <td align="center"><a href="https://www.codepresssolutions.com/"><img src="https://avatars1.githubusercontent.com/u/31517766?v=4" width="100px;" alt="Lauren"/><br /><sub><b>Lauren</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=unikornintech" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/metalandcoffee"><img src="https://avatars2.githubusercontent.com/u/20868511?v=4" width="100px;" alt="Ebonie"/><br /><sub><b>Ebonie</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=metalandcoffee" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/deboutlaw"><img src="https://avatars3.githubusercontent.com/u/36055038?v=4" width="100px;" alt="deb outlaw"/><br /><sub><b>deb outlaw</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=deboutlaw" title="Code">💻</a></td>
   </tr>
 </table>
 

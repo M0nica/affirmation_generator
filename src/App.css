@@ -71,6 +71,11 @@ button {
   text-transform: uppercase;
 }
 
+
+.contribute-button {
+ color: #000;   
+}
+
 button:hover {
   color: #000;
   background-color: #fff;

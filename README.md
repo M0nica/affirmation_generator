@@ -1,7 +1,7 @@
 ### affirmation generator
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ec8dd57a-9951-4166-bba9-bb5f99354b29/deploy-status)](https://app.netlify.com/sites/affirmations/deploys)
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors)
 
 Website: [https://www.affirmations.madewithtech.com/](https://www.affirmations.madewithtech.com/)
 
@@ -89,6 +89,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/metalandcoffee"><img src="https://avatars2.githubusercontent.com/u/20868511?v=4" width="100px;" alt="Ebonie"/><br /><sub><b>Ebonie</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=metalandcoffee" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/deboutlaw"><img src="https://avatars3.githubusercontent.com/u/36055038?v=4" width="100px;" alt="deb outlaw"/><br /><sub><b>deb outlaw</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=deboutlaw" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/LonelyPrincess"><img src="https://avatars1.githubusercontent.com/u/17673317?v=4" width="100px;" alt="Sara Hernández"/><br /><sub><b>Sara Hernández</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=lonelyprincess" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/kharaone"><img src="https://avatars1.githubusercontent.com/u/6599271?v=4" width="100px;" alt="kharaone"/><br /><sub><b>kharaone</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=kharaone" title="Code">💻</a></td>
   </tr>
 </table>
 

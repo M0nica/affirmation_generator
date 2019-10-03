@@ -53,7 +53,6 @@
       ]
     },
     {
-
       "login": "deboutlaw",
       "name": "deb outlaw",
       "avatar_url": "https://avatars3.githubusercontent.com/u/36055038?v=4",
@@ -67,6 +66,15 @@
       "name": "Sara Hernández",
       "avatar_url": "https://avatars1.githubusercontent.com/u/17673317?v=4",
       "profile": "https://github.com/LonelyPrincess",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "kharaone",
+      "name": "kharaone",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6599271?v=4",
+      "profile": "https://github.com/kharaone",
       "contributions": [
         "code"
       ]

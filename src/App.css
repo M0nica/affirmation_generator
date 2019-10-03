@@ -29,6 +29,10 @@
   color: #3e3d56;
 }
 
+.header {
+  margin-top: 20%;
+}
+
 .Navigation {
   display: flex;
   justify-content: center;

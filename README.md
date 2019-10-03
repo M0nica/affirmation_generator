@@ -1,7 +1,7 @@
 ### affirmation generator
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ec8dd57a-9951-4166-bba9-bb5f99354b29/deploy-status)](https://app.netlify.com/sites/affirmations/deploys)
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors)
 
 Website: [https://www.affirmations.madewithtech.com/](https://www.affirmations.madewithtech.com/)
 
@@ -92,6 +92,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/kharaone"><img src="https://avatars1.githubusercontent.com/u/6599271?v=4" width="100px;" alt="kharaone"/><br /><sub><b>kharaone</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=kharaone" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ribaishtiaq"><img src="https://avatars2.githubusercontent.com/u/38105931?v=4" width="100px;" alt="Riba Ishtiaq"/><br /><sub><b>Riba Ishtiaq</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=ribaishtiaq" title="Code">💻</a></td>
   </tr>
 </table>
 

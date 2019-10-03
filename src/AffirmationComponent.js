@@ -1,23 +1,40 @@
 import React from "react";
 
 import TweetButton from "./TweetComponent";
-import { getRandomQuote } from "./utils/QuoteService";
 
-import "./App.css";
+import affirmations from "./affirmations";
+
+export function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
+export function getAffirmation(index) {
+  return {
+    author: affirmations[index].author,
+    affirmation: affirmations[index].affirmation
+  };
+}
+
+export function generateAffirmation() {
+  const index = getRandomInt(affirmations.length);
+  const affirmation = getAffirmation(index);
+
+  return affirmation;
+}
 
 class AffirmationComponent extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      affirmation: getRandomQuote()
+      affirmation: generateAffirmation()
     };
 
     this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick(e) {
-    this.setState({ affirmation: getRandomQuote() });
+    this.setState({ affirmation: generateAffirmation() });
   }
 
   render() {

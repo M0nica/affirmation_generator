@@ -162,6 +162,16 @@ const affirmations = [
     affirmation: "We will be more successful in all our endeavors if we can let go of the habit of running all the time, and take little pauses to relax and re-center ourselves.",
     source: "unknown",
     author: "Thich Nhat Hahn"
+  },
+  {
+    affirmation: "As I express my appreciation for others, I am enjoying being in one of the highest states of vibration",
+    source: "unknown",
+    author: "unknown"
+  },
+  {
+    affirmation: "I feel happy and fulfilled because I am doing what I was born to do.",
+    source: "unknown",
+    author: "unknown"
   }
 ];
 

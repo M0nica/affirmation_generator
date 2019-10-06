@@ -9,14 +9,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header
-          className="App-header"
-          style={{ display: "flex", flexDirection: "columns" }}
-        >
           <Header />
           <Affirmation />
           <Footer />
-        </header>
       </div>
     );
   }

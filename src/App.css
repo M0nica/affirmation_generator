@@ -1,9 +1,12 @@
 #root,
 .App {
+  background-color: #f7eaea;
   height: 100%;
 }
 
 .App {
+  color: #3e3d56;
+  font-size: calc(10px + 2vmin);
   text-align: center;
 }
 
@@ -16,18 +19,6 @@
   width: 20px;
 }
 
-.App-header {
-  height: 100%;
-  overflow-x: hidden;
-  background-color: #f7eaea;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #3e3d56;
-}
 
 .Navigation {
   display: flex;
@@ -82,11 +73,11 @@ button:hover {
 }
 
 .Affirmation {
-  flex: 1;
+  padding: 0 1em;
 }
 
 .quote {
-  margin: 1em;
+  margin: 1em auto;
   max-width: 600px;
   padding: 2em;
   color: #f7f7f7;

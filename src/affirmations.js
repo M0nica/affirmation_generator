@@ -177,6 +177,16 @@ const affirmations = [
     affirmation: "Offer your light to the worst that you're feeling",
     source: "Offer Your Light, Transcendence (2016)",
     author: "Devin Townsend Project"
+  },
+  {
+    affirmation: "Making the work you want to make means finding nourishment within the work itself.",
+    source: "Art & Fear: Observation on the Perils (and Rewards) of Artmaking",
+    author: "David Bayles"
+  },
+  {
+    affirmation: "Success is the product of daily habits—not once-in-a-lifetime transformations.",
+    source: "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+    author: "James Clear"
   }
 ];
 

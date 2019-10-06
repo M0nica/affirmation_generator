@@ -172,6 +172,11 @@ const affirmations = [
     affirmation: "I feel happy and fulfilled because I am doing what I was born to do.",
     source: "unknown",
     author: "unknown"
+  },
+  {
+    affirmation: "Offer your light to the worst that you're feeling",
+    source: "Offer Your Light, Transcendence (2016)",
+    author: "Devin Townsend Project"
   }
 ];
 

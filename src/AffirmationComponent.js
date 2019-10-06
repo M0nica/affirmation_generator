@@ -24,17 +24,26 @@ class AffirmationComponent extends React.Component {
     const affirmation = this.state.affirmation;
     return (
       <div className="Affirmation">
-        <blockquote className="affirmation">
-          {affirmation.affirmation}
-        </blockquote>
-        <p className="author-citation">{affirmation.author}</p>
+        <div className="quote">
+          <blockquote>{affirmation.affirmation}</blockquote>
+          <p className="author-citation">{affirmation.author}</p>
+        </div>
+
         <div className="Navigation">
           <button onClick={this.handleClick}>Next Affirmation</button>
-          <TweetButton affirmation={affirmation.affirmation} author={affirmation.author} />
+          <TweetButton
+            affirmation={affirmation.affirmation}
+            author={affirmation.author}
+          />
         </div>
         <br />
-          <p>Want to add a new affirmation?</p>
-          <a href="https://github.com/M0nica/affirmation_generator" className="contribute-button"><button>Contribute</button></a>
+        <p>Want to add a new affirmation?</p>
+        <a
+          href="https://github.com/M0nica/affirmation_generator"
+          className="contribute-button"
+        >
+          <button>Contribute</button>
+        </a>
       </div>
     );
   }

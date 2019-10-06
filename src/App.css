@@ -71,9 +71,8 @@ button {
   text-transform: uppercase;
 }
 
-
 .contribute-button {
- color: #000;   
+  color: #000;
 }
 
 button:hover {
@@ -84,4 +83,12 @@ button:hover {
 
 .Affirmation {
   flex: 1;
+}
+
+.quote {
+  margin: 1em;
+  max-width: 600px;
+  padding: 2em;
+  color: #f7f7f7;
+  background-color: #444053;
 }

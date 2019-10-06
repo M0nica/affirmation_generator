@@ -23,7 +23,7 @@ class AffirmationComponent extends React.Component {
   render() {
     const affirmation = this.state.affirmation;
     return (
-      <div className="Affirmation">
+      <main className="Affirmation">
         <div className="quote">
           <blockquote>{affirmation.affirmation}</blockquote>
           <p className="author-citation">{affirmation.author}</p>
@@ -44,7 +44,7 @@ class AffirmationComponent extends React.Component {
         >
           <button>Contribute</button>
         </a>
-      </div>
+      </main>
     );
   }
 }

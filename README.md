@@ -24,7 +24,7 @@ The basic object structure of an affirmation in this project is:
 }
 ```
 
-See the [affirmationsTemplate.js](src/affirmationTemplate.js) file for a further example of what should be added to the `affirmations` array in the [affirmations.js](src/affirmations.js) file.
+See the [affirmationsTemplate.js](src/affirmationsTemplate.js) file for a further example of what should be added to the `affirmations` array in the [affirmations.js](src/affirmations.js) file.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -96,6 +96,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "ruidpm",
+      "name": "ruidpm",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/51025261?v=4",
+      "profile": "https://github.com/ruidpm",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,

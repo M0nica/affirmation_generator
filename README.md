@@ -91,7 +91,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/LonelyPrincess"><img src="https://avatars1.githubusercontent.com/u/17673317?v=4" width="100px;" alt="Sara Hernández"/><br /><sub><b>Sara Hernández</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=lonelyprincess" title="Code">💻</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/kharaone"><img src="https://avatars1.githubusercontent.com/u/6599271?v=4" width="100px;" alt="kharaone"/><br /><sub><b>kharaone</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=kharaone" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/kharaone"><img src="https://avatars1.githubusercontent.com/u/6599271?v=4" width="100px;" alt="kharaone"/><br /><sub><b>kharaone</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=kharaone" title="Code">💻</a> <a href="https://github.com/M0nica/affirmation_generator/commits?author=kharaone" title="Documentation">📖</a></td>
   </tr>
 </table>
 

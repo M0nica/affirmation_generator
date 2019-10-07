@@ -1,7 +1,7 @@
 ### affirmation generator
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ec8dd57a-9951-4166-bba9-bb5f99354b29/deploy-status)](https://app.netlify.com/sites/affirmations/deploys)
-[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors)
 
 Website: [https://www.affirmations.madewithtech.com/](https://www.affirmations.madewithtech.com/)
 
@@ -95,6 +95,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/ribaishtiaq"><img src="https://avatars2.githubusercontent.com/u/38105931?v=4" width="100px;" alt="Riba Ishtiaq"/><br /><sub><b>Riba Ishtiaq</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=ribaishtiaq" title="Code">💻</a></td>
     <td align="center"><a href="http://jolenelanglinais.com"><img src="https://avatars3.githubusercontent.com/u/36460856?v=4" width="100px;" alt="Jolene Langlinais"/><br /><sub><b>Jolene Langlinais</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=irmerk" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/ruidpm"><img src="https://avatars2.githubusercontent.com/u/51025261?v=4" width="100px;" alt="ruidpm"/><br /><sub><b>ruidpm</b></sub></a><br /><a href="#content-ruidpm" title="Content">🖋</a></td>
+    <td align="center"><a href="http://CPureMake.TV"><img src="https://avatars0.githubusercontent.com/u/35224818?v=4" width="100px;" alt="C. Pure"/><br /><sub><b>C. Pure</b></sub></a><br /><a href="https://github.com/M0nica/affirmation_generator/commits?author=Courtneypure" title="Code">💻</a></td>
   </tr>
 </table>
 

@@ -187,6 +187,11 @@ const affirmations = [
     affirmation: "Success is the product of daily habits—not once-in-a-lifetime transformations.",
     source: "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
     author: "James Clear"
+  },
+  {
+    affirmation: "When I dare to be powerful, to use my strength in the service of my vision, then it becomes less and less important whether I am afraid",
+    source: "Second Sex Conference, NY, 1979",
+    author: "Audre Lorde"
   }
 ];
 

@@ -131,7 +131,8 @@ const affirmations = [
     author: "Corey Regan"
   },
   {
-    affirmation: "Wealth is constantly flowing into my life.",
+    affirmation: 
+      "Wealth is constantly flowing into my life.",
     source: "unknown",
     author: "unknown"
   },
@@ -154,39 +155,61 @@ const affirmations = [
     author: "Sarah Prout"
   },
   {
-    affirmation: "An endless reservoir of creativity lies within me.",
+    affirmation: 
+      "An endless reservoir of creativity lies within me.",
     source: "unknown",
     author: "unknown"
   },
   {
-    affirmation: "We will be more successful in all our endeavors if we can let go of the habit of running all the time, and take little pauses to relax and re-center ourselves.",
+    affirmation: 
+      "We will be more successful in all our endeavors if we can let go of the habit of running all the time, and take little pauses to relax and re-center ourselves.",
     source: "unknown",
     author: "Thich Nhat Hahn"
   },
   {
-    affirmation: "As I express my appreciation for others, I am enjoying being in one of the highest states of vibration",
+    affirmation: 
+      "As I express my appreciation for others, I am enjoying being in one of the highest states of vibration",
     source: "unknown",
     author: "unknown"
   },
   {
-    affirmation: "I feel happy and fulfilled because I am doing what I was born to do.",
+    affirmation: 
+      "I feel happy and fulfilled because I am doing what I was born to do.",
     source: "unknown",
     author: "unknown"
   },
   {
-    affirmation: "Offer your light to the worst that you're feeling",
+    affirmation: 
+      "Offer your light to the worst that you're feeling",
     source: "Offer Your Light, Transcendence (2016)",
     author: "Devin Townsend Project"
   },
   {
-    affirmation: "Making the work you want to make means finding nourishment within the work itself.",
+    affirmation: 
+      "Making the work you want to make means finding nourishment within the work itself.",
     source: "Art & Fear: Observation on the Perils (and Rewards) of Artmaking",
     author: "David Bayles"
   },
   {
-    affirmation: "Success is the product of daily habits—not once-in-a-lifetime transformations.",
+    affirmation: 
+      "Success is the product of daily habits—not once-in-a-lifetime transformations.",
     source: "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
     author: "James Clear"
+  },
+  {
+    affirmation:
+      "Forgiveness is the greatest gift you can give yourself.",
+    author: "Maya Angelou"
+  },
+  {
+    affirmation:
+      "Remember to take care of yourself. You can’t pour from an empty cup.",
+    author: "Unknown"
+  },
+  {
+    affirmation:
+      "You, yourself, as much as anybody in the entire universe, deserve your love and affection.",
+    author: "Buddha"
   }
 ];
 

@@ -187,7 +187,23 @@ const affirmations = [
     affirmation: "Success is the product of daily habits—not once-in-a-lifetime transformations.",
     source: "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
     author: "James Clear"
+  },
+  {
+    affirmation: "Every decision I make is the right one for me.",
+    source: "www.louisehay.com/affirmations/",
+    author: "Louise Hay"
+  },
+  {
+    affirmations: "My life is joyously balanced with Work and Play.",
+    source: "https://www.louisehay.com/affirmations/",
+    author: "Louise Hay"
+  },
+  {
+    affirmation: "I want -- it's an excellent way to attract happiness in my life.",
+    source: "https://www.louisehay.com/affirmations/",
+    author: "Louise Hay"
   }
+  
 ];
 
 export default affirmations;

@@ -192,7 +192,6 @@ const affirmations = [
     affirmation: "A champion is defined not by their wins but how they can recover when they fall.",
     source: "unkown",
     author: "Serena Williams"
-
   }
 ];
 

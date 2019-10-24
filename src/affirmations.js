@@ -159,17 +159,20 @@ const affirmations = [
     author: "unknown"
   },
   {
-    affirmation: "We will be more successful in all our endeavors if we can let go of the habit of running all the time, and take little pauses to relax and re-center ourselves.",
+    affirmation:
+      "We will be more successful in all our endeavors if we can let go of the habit of running all the time, and take little pauses to relax and re-center ourselves.",
     source: "unknown",
     author: "Thich Nhat Hahn"
   },
   {
-    affirmation: "As I express my appreciation for others, I am enjoying being in one of the highest states of vibration",
+    affirmation:
+      "As I express my appreciation for others, I am enjoying being in one of the highest states of vibration",
     source: "unknown",
     author: "unknown"
   },
   {
-    affirmation: "I feel happy and fulfilled because I am doing what I was born to do.",
+    affirmation:
+      "I feel happy and fulfilled because I am doing what I was born to do.",
     source: "unknown",
     author: "unknown"
   },
@@ -179,14 +182,23 @@ const affirmations = [
     author: "Devin Townsend Project"
   },
   {
-    affirmation: "Making the work you want to make means finding nourishment within the work itself.",
+    affirmation:
+      "Making the work you want to make means finding nourishment within the work itself.",
     source: "Art & Fear: Observation on the Perils (and Rewards) of Artmaking",
     author: "David Bayles"
   },
   {
-    affirmation: "Success is the product of daily habits—not once-in-a-lifetime transformations.",
-    source: "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+    affirmation:
+      "Success is the product of daily habits—not once-in-a-lifetime transformations.",
+    source:
+      "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
     author: "James Clear"
+  },
+  {
+    affirmation:
+      "More smiling, less worrying. More compassion, less judgment. More blessed, less stressed. More love, less hate.",
+    source: "The Light in the Heart",
+    author: "Roy T. Bennett"
   }
 ];
 

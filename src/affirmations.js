@@ -187,6 +187,12 @@ const affirmations = [
     affirmation: "Success is the product of daily habits—not once-in-a-lifetime transformations.",
     source: "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
     author: "James Clear"
+  },
+  {
+    affirmation: "A champion is defined not by their wins but how they can recover when they fall.",
+    source: "unkown",
+    author: "Serena Williams"
+
   }
 ];
 

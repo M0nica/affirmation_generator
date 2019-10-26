@@ -187,6 +187,11 @@ const affirmations = [
     affirmation: "Success is the product of daily habits—not once-in-a-lifetime transformations.",
     source: "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
     author: "James Clear"
+  },
+  {
+    affirmation: "Remember one thing Through every dark night, there’s a bright day after that. So no matter how hard it get, stick your chest out. Keep your head up, and handle it.",
+    source: "Me Against the World",
+    author: "Tupac Shakur"
   }
 ];
 

@@ -216,6 +216,11 @@ const affirmations = [
     author: "James Clear"
   },
   {
+    affirmation: "A champion is defined not by their wins but how they can recover when they fall.",
+    source: "unkown",
+    author: "Serena Williams"
+  },
+  {
     affirmation: "Every decision I make is the right one for me.",
     source: "www.louisehay.com/affirmations/",
     author: "Louise Hay"

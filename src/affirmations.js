@@ -216,6 +216,21 @@ const affirmations = [
     author: "James Clear"
   },
   {
+    affirmation: "Every decision I make is the right one for me.",
+    source: "www.louisehay.com/affirmations/",
+    author: "Louise Hay"
+  },
+  {
+    affirmations: "My life is joyously balanced with Work and Play.",
+    source: "https://www.louisehay.com/affirmations/",
+    author: "Louise Hay"
+  },
+  {
+    affirmation: "I want -- it's an excellent way to attract happiness in my life.",
+    source: "https://www.louisehay.com/affirmations/",
+    author: "Louise Hay"
+  },
+  {
     affirmation:
       "Forgiveness is the greatest gift you can give yourself.",
     author: "Maya Angelou"
@@ -234,6 +249,7 @@ const affirmations = [
     source: "Second Sex Conference, NY, 1979",
     author: "Audre Lorde"
   }
+  
 ];
 
 export default affirmations;

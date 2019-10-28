@@ -216,6 +216,10 @@ const affirmations = [
     author: "James Clear"
   },
   {
+    affirmation: "Remember one thing Through every dark night, there’s a bright day after that. So no matter how hard it get, stick your chest out. Keep your head up, and handle it.",
+    source: "Me Against the World",
+    author: "Tupac Shakur"},
+  {
     affirmation: "A champion is defined not by their wins but how they can recover when they fall.",
     source: "unkown",
     author: "Serena Williams"

@@ -1,4 +1,23 @@
 const affirmations = [
+     {
+    affirmation:
+      "If there’s a book that you want to read, but it hasn’t been written yet, then you must write it.",
+    author: "Toni Morrison"
+  }, {
+    affirmation:
+      "Freeing yourself was one thing, claiming ownership of that freed self was another.",
+    author: "Toni Morrison"
+  },
+   {
+    affirmation: "Definitions belong to the definers, not the defined.",
+    author: "Toni Morrison"
+  },
+  {
+    affirmation:
+      "You are your best thing",
+    source: "Beloved",
+    author: "Toni Morrison"
+  },
   {
     affirmation:
       "I remind myself: the sun will shine on me through the change that I create and the change I cannot control.",
@@ -131,7 +150,8 @@ const affirmations = [
     author: "Corey Regan"
   },
   {
-    affirmation: "Wealth is constantly flowing into my life.",
+    affirmation: 
+      "Wealth is constantly flowing into my life.",
     source: "unknown",
     author: "unknown"
   },
@@ -154,37 +174,44 @@ const affirmations = [
     author: "Sarah Prout"
   },
   {
-    affirmation: "An endless reservoir of creativity lies within me.",
+    affirmation: 
+      "An endless reservoir of creativity lies within me.",
     source: "unknown",
     author: "unknown"
   },
   {
-    affirmation: "We will be more successful in all our endeavors if we can let go of the habit of running all the time, and take little pauses to relax and re-center ourselves.",
+    affirmation: 
+      "We will be more successful in all our endeavors if we can let go of the habit of running all the time, and take little pauses to relax and re-center ourselves.",
     source: "unknown",
     author: "Thich Nhat Hahn"
   },
   {
-    affirmation: "As I express my appreciation for others, I am enjoying being in one of the highest states of vibration",
+    affirmation: 
+      "As I express my appreciation for others, I am enjoying being in one of the highest states of vibration",
     source: "unknown",
     author: "unknown"
   },
   {
-    affirmation: "I feel happy and fulfilled because I am doing what I was born to do.",
+    affirmation: 
+      "I feel happy and fulfilled because I am doing what I was born to do.",
     source: "unknown",
     author: "unknown"
   },
   {
-    affirmation: "Offer your light to the worst that you're feeling",
+    affirmation: 
+      "Offer your light to the worst that you're feeling",
     source: "Offer Your Light, Transcendence (2016)",
     author: "Devin Townsend Project"
   },
   {
-    affirmation: "Making the work you want to make means finding nourishment within the work itself.",
+    affirmation: 
+      "Making the work you want to make means finding nourishment within the work itself.",
     source: "Art & Fear: Observation on the Perils (and Rewards) of Artmaking",
     author: "David Bayles"
   },
   {
-    affirmation: "Success is the product of daily habits—not once-in-a-lifetime transformations.",
+    affirmation: 
+      "Success is the product of daily habits—not once-in-a-lifetime transformations.",
     source: "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
     author: "James Clear"
   },
@@ -192,7 +219,42 @@ const affirmations = [
     affirmation: "A champion is defined not by their wins but how they can recover when they fall.",
     source: "unkown",
     author: "Serena Williams"
+  },
+  {
+    affirmation: "Every decision I make is the right one for me.",
+    source: "www.louisehay.com/affirmations/",
+    author: "Louise Hay"
+  },
+  {
+    affirmations: "My life is joyously balanced with Work and Play.",
+    source: "https://www.louisehay.com/affirmations/",
+    author: "Louise Hay"
+  },
+  {
+    affirmation: "I want -- it's an excellent way to attract happiness in my life.",
+    source: "https://www.louisehay.com/affirmations/",
+    author: "Louise Hay"
+  },
+  {
+    affirmation:
+      "Forgiveness is the greatest gift you can give yourself.",
+    author: "Maya Angelou"
+  },
+  {
+    affirmation:
+      "Remember to take care of yourself. You can’t pour from an empty cup.",
+    author: "Unknown"
+  },
+  {
+    affirmation:
+      "You, yourself, as much as anybody in the entire universe, deserve your love and affection.",
+    author: "Buddha"},
+  {
+    affirmation: "When I dare to be powerful, to use my strength in the service of my vision, then it becomes less and less important whether I am afraid",
+    source: "Second Sex Conference, NY, 1979",
+    author: "Audre Lorde"
   }
+  
 ];
 
 export default affirmations;

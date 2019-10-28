@@ -1,4 +1,23 @@
 const affirmations = [
+     {
+    affirmation:
+      "If there’s a book that you want to read, but it hasn’t been written yet, then you must write it.",
+    author: "Toni Morrison"
+  }, {
+    affirmation:
+      "Freeing yourself was one thing, claiming ownership of that freed self was another.",
+    author: "Toni Morrison"
+  },
+   {
+    affirmation: "Definitions belong to the definers, not the defined.",
+    author: "Toni Morrison"
+  },
+  {
+    affirmation:
+      "You are your best thing",
+    source: "Beloved",
+    author: "Toni Morrison"
+  },
   {
     affirmation:
       "I remind myself: the sun will shine on me through the change that I create and the change I cannot control.",
@@ -209,7 +228,11 @@ const affirmations = [
   {
     affirmation:
       "You, yourself, as much as anybody in the entire universe, deserve your love and affection.",
-    author: "Buddha"
+    author: "Buddha"},
+  {
+    affirmation: "When I dare to be powerful, to use my strength in the service of my vision, then it becomes less and less important whether I am afraid",
+    source: "Second Sex Conference, NY, 1979",
+    author: "Audre Lorde"
   }
 ];
 

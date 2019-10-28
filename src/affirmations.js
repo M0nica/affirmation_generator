@@ -1,4 +1,23 @@
 const affirmations = [
+     {
+    affirmation:
+      "If there’s a book that you want to read, but it hasn’t been written yet, then you must write it.",
+    author: "Toni Morrison"
+  }, {
+    affirmation:
+      "Freeing yourself was one thing, claiming ownership of that freed self was another.",
+    author: "Toni Morrison"
+  },
+   {
+    affirmation: "Definitions belong to the definers, not the defined.",
+    author: "Toni Morrison"
+  },
+  {
+    affirmation:
+      "You are your best thing",
+    source: "Beloved",
+    author: "Toni Morrison"
+  },
   {
     affirmation:
       "I remind myself: the sun will shine on me through the change that I create and the change I cannot control.",

@@ -269,6 +269,10 @@ const affirmations = [
   {
     affirmation: "If we give our children sound self-love, they will be able to deal with whatever life puts before them.",
     author: "bell hooks"
+  },
+  {
+    affirmation: "Even if it makes others uncomfortable, I will love who I am.",
+    author: "Janelle Monáe"
   }
 
 ];

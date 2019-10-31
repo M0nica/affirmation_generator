@@ -265,6 +265,10 @@ const affirmations = [
   {
     affirmation: "You've got to learn to leave the table when love's no longer being served.",
     author: "Nina Simone"
+  },
+  {
+    affirmation: "If we give our children sound self-love, they will be able to deal with whatever life puts before them.",
+    author: "bell hooks"
   }
 
 ];

@@ -273,8 +273,12 @@ const affirmations = [
   {
     affirmation: "Even if it makes others uncomfortable, I will love who I am.",
     author: "Janelle Monáe"
+  },
+  {
+    affirmation: "I need to see my own beauty and to continue to be reminded that I am enough, that I am worthy of love without effort, that I am beautiful, that the texture of my hair and that the shape of my curves, the size of my lips, the color of my skin, and the feelings that I have are all worthy and okay.
+",
+    author: "Tracee Ellis Ross"
   }
-
 ];
 
 export default affirmations;

@@ -261,6 +261,10 @@ const affirmations = [
   {
     affirmation: "We have so much coming in as sisters, when is our interior life ever put at the forefront? We constantly want to give to other people ... Too much of not caring for yourself is not a good thing. We’re bad at that as achievers. Self-care is a priority and we have to do it more.",
     author: "Ava DuVernay"
+  },
+  {
+    affirmation: "You've got to learn to leave the table when love's no longer being served.",
+    author: "Nina Simone"
   }
 
 ];

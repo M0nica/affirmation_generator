@@ -150,7 +150,7 @@ const affirmations = [
     author: "Corey Regan"
   },
   {
-    affirmation: 
+    affirmation:
       "Wealth is constantly flowing into my life.",
     source: "unknown",
     author: "unknown"
@@ -174,43 +174,43 @@ const affirmations = [
     author: "Sarah Prout"
   },
   {
-    affirmation: 
+    affirmation:
       "An endless reservoir of creativity lies within me.",
     source: "unknown",
     author: "unknown"
   },
   {
-    affirmation: 
+    affirmation:
       "We will be more successful in all our endeavors if we can let go of the habit of running all the time, and take little pauses to relax and re-center ourselves.",
     source: "unknown",
     author: "Thich Nhat Hahn"
   },
   {
-    affirmation: 
+    affirmation:
       "As I express my appreciation for others, I am enjoying being in one of the highest states of vibration",
     source: "unknown",
     author: "unknown"
   },
   {
-    affirmation: 
+    affirmation:
       "I feel happy and fulfilled because I am doing what I was born to do.",
     source: "unknown",
     author: "unknown"
   },
   {
-    affirmation: 
+    affirmation:
       "Offer your light to the worst that you're feeling",
     source: "Offer Your Light, Transcendence (2016)",
     author: "Devin Townsend Project"
   },
   {
-    affirmation: 
+    affirmation:
       "Making the work you want to make means finding nourishment within the work itself.",
     source: "Art & Fear: Observation on the Perils (and Rewards) of Artmaking",
     author: "David Bayles"
   },
   {
-    affirmation: 
+    affirmation:
       "Success is the product of daily habits—not once-in-a-lifetime transformations.",
     source: "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
     author: "James Clear"
@@ -257,8 +257,12 @@ const affirmations = [
     affirmation: "When I dare to be powerful, to use my strength in the service of my vision, then it becomes less and less important whether I am afraid",
     source: "Second Sex Conference, NY, 1979",
     author: "Audre Lorde"
+  },
+  {
+    affirmation: "We have so much coming in as sisters, when is our interior life ever put at the forefront? We constantly want to give to other people ... Too much of not caring for yourself is not a good thing. We’re bad at that as achievers. Self-care is a priority and we have to do it more.",
+    author: "Ava DuVernay"
   }
-  
+
 ];
 
 export default affirmations;

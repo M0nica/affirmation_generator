@@ -1,5 +1,20 @@
 const affirmations = [
      {
+    affirmation: "I am love. I am purpose. ...",
+    author: "Prashant Rayamajhi"
+   },   {
+    affirmation: "I don't sweat the small stuff.",
+    author: "Gabbybernstein"
+   },
+        {
+    affirmation: "I will not compare myself to strangers on the Internet.",
+    author: "Aayam Thapa"
+   },
+        {
+    affirmation: " I am in the process of becoming the best version of myself.",
+    author: "Safal Dhami"
+   },
+     {
     affirmation:
       "If there’s a book that you want to read, but it hasn’t been written yet, then you must write it.",
     author: "Toni Morrison"

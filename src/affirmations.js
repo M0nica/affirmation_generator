@@ -257,8 +257,28 @@ const affirmations = [
     affirmation: "When I dare to be powerful, to use my strength in the service of my vision, then it becomes less and less important whether I am afraid",
     source: "Second Sex Conference, NY, 1979",
     author: "Audre Lorde"
+  },
+  {
+    affirmation:
+      "Education does not transform the world. Education changes people. People change the world.",
+    author: "Paulo Freire"
+  },
+  {
+    affirmation:
+      "It is necessary to love people as if there is no tomorrow, because if you stop to think, there really is not.",
+      source: "https://www.youtube.com/watch?v=DFSvGwsSlrU",
+      author: "Renato Russo"
+  },
+  {
+    affirmation:
+      "Greater than the sadness of not having won is the shame of not having fought!",
+    author: "Rui Barbosa"
+  },
+  {
+    affirmation:
+      "Failure is simply the opportunity to begin again, this time more intelligently",
+    author: "Henry Ford"
   }
-  
 ];
 
 export default affirmations;

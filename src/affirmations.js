@@ -257,6 +257,10 @@ const affirmations = [
     affirmation: "When I dare to be powerful, to use my strength in the service of my vision, then it becomes less and less important whether I am afraid",
     source: "Second Sex Conference, NY, 1979",
     author: "Audre Lorde"
+  },
+  {
+    affirmation: "Be the change that you wish to see in the world.",
+    author: "Mahatma Gandhi"
   }
   
 ];
